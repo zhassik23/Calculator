@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<!-- Font -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:600,700" rel="stylesheet">
+	<title>iPhone's Calculator</title>
+</head>
+<body>
+	<!--desk-->
+	<div id="container">
+		<!--our phone-->
+		<div class="calculator">
+			<!--Console where we see our output-->
+			<div class="output">
+				<!--History is container where we store our numbers and signs until we press equal sign(=)-->
+		      <div id="history"></div>
+		      <!--Result is container where we show output of our arithmetics, or the numbers that we have pressed-->
+		     	<div id="result"></div>
+		    </div>
+
+		    <!-- Buttons that we press -->
+		    <div class="input">
+		    	<!-- all clear(AC) - operator cancels all info from our console -->
+		    	<button class="oper" id="all_clear">AC</button>
+		    	<!-- delete(C) - operator clears one character from result console -->
+			    <button class="oper" id="delete">C</button>
+			    <button class="oper" id="%">%</button>
+			    <button class="sign" id="/">/</button>
+			    <button class="numb" id="7">7</button>
+			    <button class="numb" id="8">8</button>
+			    <button class="numb" id="9">9</button>
+			    <button class="sign" id="*">x</button>
+			    <button class="numb" id="4">4</button>
+			    <button class="numb" id="5">5</button>
+			    <button class="numb" id="6">6</button>
+			    <button class="sign" id="-">-</button>
+			    <button class="numb" id="1">1</button>
+			    <button class="numb" id="2">2</button>
+			    <button class="numb" id="3">3</button>
+			    <button class="sign" id="+">+</button>
+			    <button class="numb numb0" id="0">0</button>
+			    <button class="numb" id=".">,</button>
+			    <button class="sign" id="=">=</button>
+		    </div>
+		</div>
+	</div>
+	
+	<!--JavaScript-->
+ 	<script src="script.js"></script>
+</body>
+</html>

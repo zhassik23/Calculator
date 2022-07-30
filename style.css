@@ -1,0 +1,102 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	background-color: DimGray;
+}
+
+#container {
+	width: 1100px;
+	height: 650px;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRl9Vi-38_Au7TXAc_zyK9FIZeTjLbFGIH8pg&usqp=CAU);
+	margin: 20px auto;
+	box-sizing: border-box;
+}
+
+.calculator {
+	width: 320px;
+	height:  610px;
+	background-color: rgb(0, 0, 0);
+	margin: 0 auto;
+	top: 25px;
+	position: relative;
+	border: 3px solid rgb(47, 46, 46);
+	border-radius: 40px;
+	box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.6), 0 7px 25px 0 rgba(0, 0, 0, 0.6);
+}
+
+.output {
+	height: 200px;
+	box-sizing: border-box;
+}
+
+#history {
+	text-align: right;
+	height: 20px;
+	margin-right: 20px;
+	padding-top: 20px;
+	font-size: 18px;
+	color: gray;  
+}
+
+#result {
+	text-align: right; 
+	height: 60px;
+	margin: 10px 20px;
+	font-size: 33px;
+	color: white;
+}	
+
+.input {
+	height: 410px;
+}
+
+.numb, 
+.sign, 
+.oper {
+	width: 64px;
+	height: 64px;
+	margin: 8px;
+	float: left;
+	border-radius: 50%;
+	border-width: 0; 
+	font-size: 28px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: silver;
+}
+
+.oper {
+	background-color: #A5A5A5;
+	color: black;
+	cursor: pointer;
+}
+
+.numb {
+	color: white;
+	background-color: #333333;
+	cursor: pointer;
+}
+
+.numb0 {
+	width: 144px; 
+	border-radius: 45%;
+}
+
+.sign {
+	background-color: #FE9F09;
+	color: white;
+	cursor: pointer;
+}
+
+.numb:hover, 
+.sign:hover, 
+.oper:hover, 
+.numb0:hover {
+	opacity: 70%;
+}
+
+.numb:active, 
+.sign:active, 
+.oper:active, 
+.numb0:active {
+	font-size: 15px;
+}
